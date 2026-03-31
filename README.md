@@ -164,11 +164,17 @@ Sales-Insights-PowerBI/
 
 ## 📸 Dashboard Preview
 
-> *(Add screenshots of your Power BI dashboard here)*
+### 🖥️ Desktop View
 
-| Key Insights | Profit Analysis |
-|---|---|
-| ![Key Insights](screenshots/key_insights.png) | ![Profit Analysis](screenshots/profit_analysis.png) |
+| Dashboard View 1 | Dashboard View 2 |
+|----------------|------------------|
+| ![](screenshots/sales_insights1.png) | ![](screenshots/sales_insights2.png) |
+
+### 📱 Mobile View
+
+| Mobile 1 | Mobile 2 |
+|----------|----------|
+| ![](screenshots/mobile_view1.png) | ![](screenshots/mobile_view2.png) |
 
 ---
 
