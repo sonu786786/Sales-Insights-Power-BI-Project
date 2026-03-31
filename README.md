@@ -87,27 +87,6 @@ Profit Margin % = DIVIDE([Total Profit Margin], [Revenue], 0)
 
 -- Revenue Contribution %
 Revenue Contribution % = DIVIDE([Revenue], CALCULATE([Revenue], ALL('sales customers'), ALL('sales markets')))
-```
-
----
-
-## 📊 Dashboard Views
-
-### 1. 🔑 Key Insights
-- Revenue and Sales Quantity KPIs
-- Revenue trend over years and months
-- Top 5 customers and products by revenue
-- Revenue by market
-
-### 2. 💰 Profit Analysis
-- Profit margin % by market
-- Revenue vs Profit contribution by customer
-- Market-level performance comparison
-
-### 3. 📈 Performance Insights
-- Year-over-Year revenue comparison
-- Revenue contribution % by market and customer segment
-- Trend lines for revenue and profit margin
 
 ---
 
@@ -139,17 +118,18 @@ WHERE market_code = 'Mark001';
 ```
 Sales-Insights-PowerBI/
 │
-├── 📂 data/
-│   └── db_dump.sql               # MySQL database dump file
+├── 📂 dashboard/
+│   └── Sales_Dashboard.pbix              
 │
-├── 📂 pbix/
-│   └── sales_insights.pbix       # Power BI report file
+├── 📂 data/
+│   └── db_dump.sql       
 │
 ├── 📂 screenshots/
-│   ├── key_insights.png
-│   ├── profit_analysis.png
-│   └── performance_insights.png
-│
+│   ├── mobile_view1.png
+│   ├── mobile_view2.png
+│   ├── sales_insights1.png
+│   └── sales_insights2.png
+|
 └── README.md
 ```
 
@@ -165,7 +145,7 @@ Sales-Insights-PowerBI/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Sales-Insights-PowerBI.git
+   git clone [https://github.com/your-username/Sales-Insights-PowerBI.git](https://github.com/sonu786786/Sales-Insights-Power-BI-Project.git)
    cd Sales-Insights-PowerBI
    ```
 
