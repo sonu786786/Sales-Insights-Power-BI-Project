@@ -145,7 +145,7 @@ Sales-Insights-PowerBI/
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/Sales-Insights-PowerBI.git](https://github.com/sonu786786/Sales-Insights-Power-BI-Project.git)
+   git clone https://github.com/sonu786786/Sales-Insights-Power-BI-Project.git
    cd Sales-Insights-PowerBI
    ```
 
